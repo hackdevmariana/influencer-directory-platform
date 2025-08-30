@@ -8,6 +8,11 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/eslint',
     '@nuxt/content',
+    '@nuxt/ui',
+    '@pinia/nuxt',
+    '@vite-pwa/nuxt',
+    '@nuxt/scripts',
+    '@nuxt/test-utils',
   ],
   app: {
     head: {
@@ -15,4 +20,8 @@ export default defineNuxtConfig({
       meta: [{ name: 'description', content: 'Influencers directory' }],
     },
   },
+  // Configuración para @nuxt/content
+  content: {
+    // Configuración básica para content
+  }
 })
